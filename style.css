@@ -1418,17 +1418,20 @@ h1, h2, h3 {
     margin-right: auto; /* Allinea il paragrafo al centro */
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
-    .text-container-saline h1 {
-        font-size: 8vw; /* Ridotto il titolo per i dispositivi mobili */
-        max-width: 80%; /* Limita la larghezza del titolo sui dispositivi mobili */
-    }
+  .section-saline {
+    background-attachment: scroll;
+    height: auto;
+    padding: 100px 0;
+  }
 
-    .text-container-saline p {
-        font-size: 4vw; /* Riduci il paragrafo per dispositivi mobili */
-        max-width: 90%; /* Maggiore larghezza per il paragrafo sui dispositivi mobili */
-    }
+  .text-container-saline h1 {
+    font-size: 9vw;
+  }
+
+  .text-container-saline p {
+    font-size: 4.5vw;
+  }
 }
 
 /* FORTI */
